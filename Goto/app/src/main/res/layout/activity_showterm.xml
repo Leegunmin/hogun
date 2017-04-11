@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="430dp"
+        android:background="@drawable/background">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+         />
+        <TextView
+            android:text="용어 이름"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="22dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/termname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/termcontext"
+            android:text="용어 글자"
+            android:textSize="16dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#222222"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="닫기"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/termclose"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"/>
+    </LinearLayout>
+</LinearLayout>
